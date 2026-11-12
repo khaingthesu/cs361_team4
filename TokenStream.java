@@ -199,7 +199,7 @@ public class TokenStream {
 
     private boolean isKeyword(String s) {
         return s.equals("main") || s.equals("int") || s.equals("boolean")
-                || s.equals("if") || s.equals("else") || s.equals("while");
+                || s.equals("if") || s.equals("else") || s.equals("while") || s.equals("void");
     }
 
     private boolean isWhiteSpace(char c) {
