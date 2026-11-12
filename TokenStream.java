@@ -228,8 +228,6 @@ public class TokenStream {
             case ')':
             case '{':
             case '}':
-            case '[':
-            case ']':
             case ',':
             case ';':
                 return true;
