@@ -13,10 +13,10 @@ This project implements the scanner and parser stages for JAY based on the lexic
 - Syntax Analysis (`ConcreteSyntax.java`, `ParserDemo.java`, `Program.java`):
   - Implements recursive descent parsing methods following the EBNF grammar rules for programs, declarations, statements, and expressions.
   - Uses `Program.java` AST nodes to display the indented abstract syntax tree or report `Syntax error` exceptions on invalid syntax.
- 
+
 ## Structure
 ```text
-─ Token.java                  # Token representation (type and value)
+─ Token.java                  # Token representation (value and type)
 ─ TokenStream.java            # Lexical scanner for JAY input
 ─ ScannerDemo.java            # Program for printing scanner tokens
 ─ ConcreteSyntax.java         # Recursive descent parser implementation
